@@ -1,6 +1,6 @@
 # Diabólico - Parte 2
 
-Está es la segunda parte del exitoso diabólico
+Segunda parte del exitoso ejercicio `diabólico` que funcionará como defensa del TP1 y nota del primer parcial de la cursada.
 
 ## Entrega
 
@@ -68,7 +68,7 @@ y dentro de `<dependencies>` debemos agregar:
 ```
 
 Luego de esto se hace refresh del proyecto para que descargué la dependencia.
-Al incoporar la depencia, nos va a permitir utilizar todas las clases que se encuentran en ella **(pero no modificarlas)
+Al incoporar la depencia, nos va a permitir utilizar todas las clases que se encuentran en ella **(pero no modificarlas)**
 
 ## Almas protegidas
 
@@ -96,7 +96,7 @@ public interface Proteccion {
 }
 ```
 
-Se solicita realizar los cambios en el código para que los `demonios` no puedan cazar no atormentar un alma si está esta protegida para ese demonio en particular.
+*Se solicita realizar los cambios en el código para que los `demonios` no puedan cazar no atormentar un alma si está esta protegida para ese demonio en particular.*
 
 ## Otros demonios
 
@@ -153,6 +153,4 @@ public class Leviatan {
 }
 ```
 
-
-
-**NOTA: El codigo importado desde la parte 2 no puede ser modificado
+*Se solicita realizar los cambios necesarios para poder utilizar estos nuevos demonios en conjunto con los ya existentes en la etapa 1.*
