@@ -6,7 +6,7 @@ Segunda parte del exitoso ejercicio `diabólico` que funcionará como defensa de
 
 La solución y entrega de esta segunda parte se va a realizar en el repositorio original de diabólico asignado por los profesores https://github.com/obj2-unahur-2019s2/tp1-{usuario-alumno}.
 
-Se deben subir los cambios en un branch llamado `entrega` y se debe crear el pull request correspondiente en Github.
+Se deben subir los cambios en un branch llamado `parcial_1` y se debe crear el pull request correspondiente en Github.
 
 El código debe compilar y debe tener test unitarios que verifiquen la funcionalidad desarrollada.
 
@@ -16,7 +16,7 @@ El código debe compilar y debe tener test unitarios que verifiquen la funcional
 El siguiente comando nos crea el nuevo branch y luego nos deja ya parados el mismo
 
 ```console
-  git checkout -b entrega
+  git checkout -b parcial_1
 ```
 
 ### Subida de los cambios
@@ -24,7 +24,7 @@ El siguiente comando nos crea el nuevo branch y luego nos deja ya parados el mis
 La primera vez que subimos los cambios, se crea el branch en el repositorio remoto, para eso hay que ejecutar el siguiente comando:
 
 ```console
-  git push -u origin entrega
+  git push -u origin parcial_1
 ```
 
 Luego si es necesario subir nuevos commits, ejecutamos:
