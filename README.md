@@ -40,7 +40,7 @@ También podemos crearlo usando el botón `New pull request`.
 
 ## Agregar Parte 2 como dependencia de la primera
 
-Para resolver la segunda parte es necesario utilizar una seria de clases que vienen incluidas en este proyecto. Para poder hacer esto debemos agregar como dependencia del `diabólico original` al `diabólico parte 2`. Como usamos maven esto se puede hacer de forma fácil y elegante.
+Para resolver la segunda parte es necesario utilizar una serie de clases que vienen incluidas en este proyecto. Para poder hacer esto debemos agregar como dependencia del `diabólico original` al `diabólico parte 2`. Como usamos maven esto se puede hacer de forma fácil y elegante.
 
 Debemos agregar lo siguiente a nuestro `pom.xml` un nivel nivel debajo de `<project>`:
 
