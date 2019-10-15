@@ -63,8 +63,14 @@ y dentro de `<dependencies>` debemos agregar:
 	<dependency>
 	    <groupId>com.github.obj2-unahur</groupId>
 	    <artifactId>diabolico-parte-2</artifactId>
-	    <version>1.0.0</version>
+	    <version>master-SNAPSHOT</version>
 	</dependency>
+```
+
+Abren una terminal y ejecutan:
+
+```console
+   mvn clean compile
 ```
 
 Luego de esto se hace refresh del proyecto para que descargué la dependencia.
