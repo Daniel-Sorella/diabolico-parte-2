@@ -1,0 +1,24 @@
+@startuml
+
+    class ar.edu.unahur.obj2.diabolico.alma.proteccion.AnilloDePoder {
+        + estaProtegido()
+    }
+
+    class ar.edu.unahur.obj2.diabolico.alma.proteccion.LuzBlanca {
+        + estaProtegido()
+    }
+
+
+    class ar.edu.unahur.obj2.diabolico.alma.proteccion.LuzNegra {
+        + estaProtegido()
+    }
+
+    interface ar.edu.unahur.obj2.diabolico.alma.proteccion.Proteccion {
+        {abstract} + estaProtegido()
+    }
+
+  ar.edu.unahur.obj2.diabolico.alma.proteccion.AnilloDePoder .up.|> ar.edu.unahur.obj2.diabolico.alma.proteccion.Proteccion
+  ar.edu.unahur.obj2.diabolico.alma.proteccion.LuzBlanca .up.|> ar.edu.unahur.obj2.diabolico.alma.proteccion.Proteccion
+  ar.edu.unahur.obj2.diabolico.alma.proteccion.LuzNegra .up.|> ar.edu.unahur.obj2.diabolico.alma.proteccion.Proteccion
+
+@enduml

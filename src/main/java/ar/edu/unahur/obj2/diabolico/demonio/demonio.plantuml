@@ -1,0 +1,17 @@
+@startuml
+
+    class ar.edu.unahur.obj2.diabolico.demonio.Astaroth {
+        + elegirPresa()
+        + nivelDeValorAQuitar()
+    }
+
+    class ar.edu.unahur.obj2.diabolico.demonio.Belcebu {
+        + puedeCazarla()
+        + incrementoDeMaldad()
+    }
+
+    class ar.edu.unahur.obj2.diabolico.demonio.Leviatan {
+        + seleccionar()
+    }
+
+@enduml
