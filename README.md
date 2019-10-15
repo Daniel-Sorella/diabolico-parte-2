@@ -84,7 +84,7 @@ Estos mecanismos pueden proteger a un alma de un determinado `demonio` dependend
 
 Los mecanimos ya están implementados y se comparten con la parte 2 de demonio:
 
-[]
+<img src="src/main/resources/proteccion.png" width="500" />
 
 Como se aprecia en el anterior diagrama, los mecaninismos implementan la siguiente interfaz:
 
@@ -108,7 +108,8 @@ Estos demonios son los siguientes y vienen ya implementados en la parte 2:
 * Leviatan
 * Astaroth
 
-[]
+<img src="src/main/resources/demonio.png" width="500" />
+
 
 Son demonios muy antiguos pero están dispuestos a trabajar con el diablo y el resto de los demonios con el fin de cazar la mayor cantidad de almas posibles, para ello se comprometen a respetar las reglas establecidas por el diablo y utiliar los mismos criterior comúnes que tiene los otros demonios a la hora de elegir un alma para cazar, así como también aplicar los mismos tormentos.
 Al igual que los demonios de hiego, fuego y sombras, estos demonios tienen sus particularidades a la hora de elegir una presa, así com tambien de atormentarlas, como se aprecia en el codigo compartido a continuación:
