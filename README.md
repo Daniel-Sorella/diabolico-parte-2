@@ -92,7 +92,7 @@ Los mecanimos ya están implementados y se comparten con la parte 2 de demonio:
 
 <img src="src/main/resources/proteccion.png" width="500" />
 
-Como se aprecia en el anterior diagrama, los mecaninismos implementan la siguiente interfaz:
+Como se aprecia en el anterior diagrama, los mecanismos implementan la siguiente interfaz:
 
 ```java
 public interface Proteccion {
